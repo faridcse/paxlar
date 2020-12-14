@@ -53,7 +53,7 @@
   <!-- top-header -->
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -500,7 +500,7 @@
         </div>
 
 
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <!-- <ol class="carousel-indicators">
             <li data-target="#carouselExampleDark" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleDark" data-slide-to="1"></li>
@@ -527,16 +527,35 @@
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleDark" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <!--    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-long-arrow-alt-left"></i></span>
             <span class="visually-hidden">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleDark" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-long-arrow-alt-right"></i></span>
 
             <span class="visually-hidden">Next</span>
+          </a> -->
+
+
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span aria-hidden="true">
+              <i class="fas fa-long-arrow-alt-left"></i>
+            </span>
           </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span aria-hidden="true">
+                  <i class="fas fa-long-arrow-alt-right"></i>
+                </span>
+               
+              </a>
+
         </div>
+
+<!-- <i class="fas fa-long-arrow-alt-left"></i>
+<i class="fas fa-long-arrow-alt-right"></i> -->
+
+
 
 
       </div>
@@ -608,10 +627,14 @@
               <h4>newsletter</h4>
               <p class="pt-0">It is a long established fact that a reader will be distracted.</p>
               <form action="">
+
                 <div class="input-group mb-3">
-                  <input type="email" class="form-control" placeholder="Email address" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                  <button type="submit"><i class="fas fa-arrow-right"></i></button>
-                </div>
+                    <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2">
+                      <button type="submit"><i class="fas fa-long-arrow-alt-right"></i></button>
+                    </span>
+                  </div>
+
               </form>
             </div>
           </div>
